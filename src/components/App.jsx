@@ -1,7 +1,10 @@
-import { ProfileCard } from './profile-card';
-import user from './profile-card/user.json';
-import { Statistics } from './statistics';
-import data from './statistics/data.json';
+import { ProfileCard } from './Profile-card';
+import user from './Profile-card/user.json';
+import { Statistics } from './Statistics';
+import data from './Statistics/data.json';
+import { FriendList } from './FriendList';
+import { FriendistItem } from './FriendListItem/';
+import friends from './FriendListItem/friends.json';
 
 export function App() {
   return (
