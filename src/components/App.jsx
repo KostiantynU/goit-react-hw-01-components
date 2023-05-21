@@ -1,6 +1,6 @@
 import { ProfileCard } from './ProfileCard';
 import user from './ProfileCard/user.json';
-import { Statistics } from './Statistics';
+import { Statistics } from './Statistics/index';
 import data from './Statistics/data.json';
 import { FriendList } from './FriendList';
 import friends from './FriendListItem/friends.json';
