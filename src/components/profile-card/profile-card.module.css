@@ -36,6 +36,8 @@
 .stats {
   width: 100%;
   display: flex;
+  justify-content: space-evenly;
+  padding: 0;
 }
 .stats > li {
   display: flex;

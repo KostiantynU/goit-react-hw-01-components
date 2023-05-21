@@ -3,8 +3,9 @@ import user from './Profile-card/user.json';
 import { Statistics } from './Statistics';
 import data from './Statistics/data.json';
 import { FriendList } from './FriendList';
-import { FriendistItem } from './FriendListItem/';
 import friends from './FriendListItem/friends.json';
+import transactions from './Transactions/transactions.json';
+import { TransactionHistory } from './Transactions/TransactionHistory';
 
 export function App() {
   return (
@@ -18,22 +19,8 @@ export function App() {
       />
       <Statistics title="Upload stats" array={data} />
       <Statistics array={data} />
+      <FriendList array={friends} />
+      <TransactionHistory items={transactions} />;
     </>
   );
 }
-// export const App = () => {
-//   return (
-//     <div
-//       style={{
-//         height: '100vh',
-//         display: 'flex',
-//         justifyContent: 'center',
-//         alignItems: 'center',
-//         fontSize: 40,
-//         color: '#010101'
-//       }}
-//     >
-//       React homework template
-//     </div>
-//   );
-// };

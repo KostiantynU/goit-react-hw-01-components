@@ -20,7 +20,7 @@ export const Statistics = ({ title, array }) => {
 
 Statistics.propTypes = {
   title: PropTypes.string,
-  stats: PropTypes.array,
+  stats: PropTypes.array.isRequired,
 };
 
 function getRandomHexColor() {
