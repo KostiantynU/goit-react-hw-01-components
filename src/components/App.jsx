@@ -1,5 +1,5 @@
-import { ProfileCard } from './Profile-card';
-import user from './Profile-card/user.json';
+import { ProfileCard } from './ProfileCard';
+import user from './ProfileCard/user.json';
 import { Statistics } from './Statistics';
 import data from './Statistics/data.json';
 import { FriendList } from './FriendList';

@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-import css from './profile-card.module.css';
+import css from './profileCard.module.css';
 
 export function ProfileCard({ username, tag, location, avatar, stats }) {
   return (
