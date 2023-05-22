@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import css from './FriendList.module.css';
 export function FriendList({ array }) {
   return (
-    <ul className={css.friendList}>
+    <ul className={css['friend-list']}>
       {array.map(el => {
         return (
           <FriendListItem

@@ -1,17 +1,17 @@
-.transactionHistory {
+.transaction-history {
   width: 70%;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
 }
-.transactionHistory > thead {
+.transaction-history > thead {
   background-color: rgb(2, 106, 175);
   height: 40px;
   color: aliceblue;
 }
-.transactionHistory > tbody > tr {
+.transaction-history > tbody > tr {
   height: 40px;
 }
-.transactionHistory > tbody > tr:nth-child(2n) {
+.transaction-history > tbody > tr:nth-child(2n) {
   background-color: rgb(224, 230, 159);
 }
