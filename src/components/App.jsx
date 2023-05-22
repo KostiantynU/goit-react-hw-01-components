@@ -1,10 +1,10 @@
 import { ProfileCard } from './ProfileCard';
-import user from './ProfileCard/user.json';
+import user from '../data/user.json';
 import { Statistics } from './Statistics';
-import data from './Statistics/data.json';
+import data from '../data/data.json';
 import { FriendList } from './FriendList';
-import friends from './FriendListItem/friends.json';
-import transactions from './Transactions/transactions.json';
+import friends from '../data/friends.json';
+import transactions from '../data/transactions.json';
 import { TransactionHistory } from './Transactions/TransactionHistory';
 
 export function App() {

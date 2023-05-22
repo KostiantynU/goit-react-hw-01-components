@@ -4,7 +4,7 @@ import css from './statistics.module.css';
 export const Statistics = ({ title, array }) => {
   return (
     <section className={css.statistics}>
-      {title ? <h2 className={css.title}>Upload stats</h2> : undefined}
+      {title && <h2 className={css.title}>Upload stats</h2>}
 
       <ul className={css.statList}>
         {array.map(el => (
